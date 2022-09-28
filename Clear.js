@@ -3,8 +3,7 @@ const { MessageEmbed, Client, MessageActionRow, MessageButton } = require('disco
 module.exports = {
   conf: {
     aliases: ["sil"],
-    name: "clear",
-    help: "clear"
+    name: "clear"
   },
   run: async (client, message, args, embed) => {
     
